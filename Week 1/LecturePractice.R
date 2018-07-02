@@ -184,6 +184,7 @@ dev.off()
 dev.copy(pdf,file="geyserplot.pdf")
 dev.off()
 
+install.packages("swirl")
 library(swirl)
 install_from_swirl("Exploratory Data Analysis")
 swirl()
